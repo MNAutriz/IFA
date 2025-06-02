@@ -37,6 +37,27 @@ All services expect to read env variables from .env.dev file. Please make sure y
 
 IFA (Independent Football Australia) is a comprehensive football management platform that streamlines administrative and operational tasks in a football organization. The application supports player registration, team coordination, scheduling of matches, and financial operations such as payment processing. It provides both frontend and backend services, containerized using Docker to ensure consistent environments and seamless local development. The backend is built with Django and PostgreSQL, while the frontend uses a React/Vite stack, and NGINX is used to handle CORS issues during local development.
 
+### SFTP Configuration
+
+For teams using **SFTP** to deploy or manage project files remotely, below is a sample `.json` configuration to use with your SFTP client (e.g., VS Code's SFTP extension).
+
+Replace the placeholder values and the IP address/path with your actual credentials and environment details.
+
+{
+"name": "your-name",
+"host": "your.server.ip.address",
+"protocol": "sftp",
+"port": 22,
+"username": "your-username",
+"remotePath": "/home/your-username/IFA-Project/ifa-web",
+"uploadOnSave": true,
+"useTempFile": false,
+"openSsh": false,
+"privateKeyPath": "C:\\Path\\To\\Your\\PrivateKey"
+}
+
+---
+
 ### Copy Config Files
 
 After cloning the project, make sure to copy the environment example files to their proper names before running the containers.
