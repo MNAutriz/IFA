@@ -39,11 +39,11 @@ IFA (Independent Football Australia) is a comprehensive football management plat
 
 ---
 
-### 📁 SFTP Configuration
+### SFTP Configuration
 
 If you're using **SFTP** to manage or deploy files (e.g., via the **SFTP extension in VS Code**), you can use the following configuration snippet as a reference.
 
-> 🛠 **Important:**
+> **Important:**
 > Replace all placeholder values (`your-name`, `your.server.ip.address`, etc.) with your actual project and server details.
 
 <details>
@@ -66,7 +66,7 @@ If you're using **SFTP** to manage or deploy files (e.g., via the **SFTP extensi
 
 </details>
 
-#### ✅ Tips for Usage
+#### Tips for Usage
 
 - **Install the SFTP extension** in your code editor (e.g., VS Code).
 - Save the configuration as `.vscode/sftp.json` or where your SFTP tool expects it.
