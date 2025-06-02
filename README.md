@@ -56,7 +56,6 @@ Replace the placeholder values and the IP address/path with your actual credenti
   "openSsh": false,
   "privateKeyPath": "C:\\Path\\To\\Your\\PrivateKey"
 }
-```
 
 ### Copy Config Files
 
